@@ -106,5 +106,6 @@ if (inches > 0):
 	output.append('%d\"' % inches)
 if (fractions != ''):
 	output.append(fractions)
+output.append(' (%d total inches)' % totalInches)
 
 print ' '.join(output)
